@@ -114,7 +114,8 @@ h1, h2, h3 { font-family: var(--serif); }
 .education-card .credential-detail { max-width: 620px; margin-top: 9px; line-height: 1.7; }
 .credential-date { color: var(--muted); font-size: 10px; white-space: nowrap; }
 .credential-list { margin-left: 235px; border-top: 1px solid var(--line); }
-.credential-row { display: grid; grid-template-columns: 1fr; align-items: start; padding: 21px 0; border-bottom: 1px solid var(--line); }
+.credential-row { display: block; width: 100%; padding: 21px 0; border-bottom: 1px solid var(--line); }
+.credential-row > div { width: 100%; min-width: 0; }
 .credential-row h3 { margin: 0 0 5px; color: var(--forest); font-size: 15px; font-weight: 600; letter-spacing: -.02em; }
 .credential-row p { max-width: 690px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .recognition-section { padding-bottom: 85px; }
